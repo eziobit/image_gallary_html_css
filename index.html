@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding :0px;
+                margin: 0px;
+                scroll-behavior: smooth;
+            }
+            header{
+                background: url(images/123.jpg);
+                background-position: right;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width:100%;
+                height: 100vh;
+            }
+            ul {
+                list-style-type: none;
+                padding: 10px;
+                display: inline-block;
+                width: 100%;
+                }
+            li{
+                margin-left: 50px;
+                float: left;
+                
+            }
+            a{
+                color: #ffffff;
+                padding: 10px;
+                text-decoration:none;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color: #ff9d00;
+                border-radius: 7px;
+                float: left;
+                transition: .3s;
+            }
+            a:hover{
+                background-color:rgba(11, 11, 11, 0.89);
+                transition: .3s;
+            }
+            
+            .home{
+                font-size: 35px;
+                margin-right: 20px;
+                font: bold;
+                background-color: darkslateblue;
+                border-radius: 0px;
+                
+            }
+            
+            .mbx{
+                padding-bottom: 40px;
+                padding-top: 20px;
+                width: 100%;
+                background-color: darkslateblue;
+                
+            }
+            .mb{
+                height: 500px;
+                width: 300px;
+                background-color: rgba(222, 222, 220, 0.97);
+                position: inherit;
+                margin:15px;
+                padding: 5px;
+                transition: .3s;
+                box-shadow: 1px 1px 5px;
+                display: inline-block;
+             }
+            
+            
+            .mb:hover{
+                transform: translateY(-20px);
+                transform-style: preserve-3d;
+                transition: .3s;
+                box-shadow: 2px 2px 7px rgb(224, 111, 14);
+            }
+            footer{
+                background-color: blue;
+                background-color: darkgray;
+                padding: 10px;
+            }
+            .btn{
+                color: white;
+                background-color: red;
+                border-radius: 0px;
+                align-self: center;
+                transition: .3s ;
+                margin: 10px  99px 10px 99px;
+            }
+            .btn:hover{
+                transition: .3s;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+                
+            .h_1{
+                margin-left: 50px;
+                color: white;
+                font-size: 90px;
+                margin-top: 50px;
+            }
+            .h_2{
+                margin-left: 50px;
+                color: white;
+                font-size: 50px;
+                margin-top: 10px;}
+            .h_g{
+                color: white;
+                font-size: 50px;
+                margin-bottom: 40px;
+                margin-top: 40px;
+            }
+            .arrow{
+                margin-top: 80px;
+                animation: king 2s infinite ease-in-out;
+                width: 100px;
+                transform-style: preserve-3d;
+                transform: perspective(180px);
+                position:relative;
+                margin-left: -190px;
+                
+            }
+            .fb{
+                color: white;
+                background-color: #0a00ff;
+                font-size: 40px;
+                padding: 10px 25px;
+                margin-left: 50px;
+                margin-top: 20px;
+                border-radius: 0px;
+            }
+            .t{
+                color: white;
+                background-color: #0089ff;
+                font-size: 40px;
+                padding: 10px 25px;
+                margin-left: 20px;
+                margin-top: 20px;
+                border-radius: 0px;
+            }
+            #gallary{
+                transition: 5s;
+            }
+            @keyframes king{
+                0%{
+                    transform: translateY(0px);
+                }
+                50%{
+                    transform: translateY(160px);
+                }
+                100%{
+                    transform: translateY(0px);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <ul>
+                <li><a href="#" class="home" >R_SPORTS</a></li>
+                <li><a href="#gallary" >Gallary</a></li>
+                <li><a href="web/contact.html" >Contact</a></li>
+                <li><a href="web/about.html" >About</a></li>
+            </ul>
+            <h1 class="h_1">Riphah Soprts</h1>
+            <h2 class="h_2">Noting is True, Everything is permitted.</h2>
+            <a class="fb" href="https://www.facebook.com/khawar6.6">f</a><a class="t" href="https://twitter.com" >t</a>
+            <center>
+            <img class="arrow" src="images/%E2%80%94Pngtree%E2%80%94monocrhome%20shuttlecock_5164106.png"></center>
+        </header>
+        
+        
+        
+        <div class="mbx">
+        <center>
+        <h1 class="h_g" id="gallary">Gallary</h1>
+        
+        <div  class="mb">
+            <img src="images/sports_goods/1.jpg" width="300"><br><br>
+            <h2>Sports_Goods</h2><br>
+            <p>Here you can find images about Technology</p><br>
+            <a href="web/sports_goods.html" class="btn" >Explore</a>
+        </div>
+            
+        <aside class="mb">
+            <img src="images/e_sports/1.jpg" width="300"><br><br>
+            <h2>E-Sports</h2><br>
+            <p>Here you can find images about Technology</p><br>
+            <a href="web/esports.html" class="btn" >Explore</a>
+        </aside>
+        
+        
+        
+        <div class="mb">
+            <img src="images/sports/7.jpg" width="300"><br><br>
+            <h2>Athletics</h2><br>
+            <p>Here you can find images about Technology</p><br>
+            <a href="web/Spports.html" class="btn" >Explore</a>
+        </div>
+        
+            
+            </center>
+        </div>
+        
+    <footer>
+    
+        <center>
+            <h2>All Right Reserved (c)2020   </h2>
+            <h3>Designed By Muhammad Khawar</h3>    
+        </center>
+        
+    
+    
+    </footer>
+    
+    </body>
+</html>
